@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Map } from './components/Map'
+import Main from './components/Main'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title"><em>RESTURANT FINDER</em></h1>
+          <h1 className="App-title"><em>TourFlow</em></h1>
         </header>
         <div>
-        <Map />
+        <Main />
         </div>
       </div>
     );

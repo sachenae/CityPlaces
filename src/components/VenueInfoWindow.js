@@ -8,10 +8,10 @@ export class VenueInfoWindow extends Component {
 
     return(
       <InfoWindow onCloseClick={this.props.closeWindow}>
-        <div style={{width: `300px`, backgroundColor: `yellow`, opacity: 0.75, padding: `12px` }}>
+        <div className="card border-secondary mb-3" style={{width: `300px`}} >
           <div style={{ fontSize: `16px`, fontColor: `#08233B` }}>
-            <h4>{name}</h4>
-            <p>{description}</p>
+            <h4  className="card-header">{name}</h4>
+            <p className="card-text">{description}</p>
           </div>
         </div>
       </InfoWindow>

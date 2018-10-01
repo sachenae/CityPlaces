@@ -3,42 +3,47 @@ import React, { Component } from 'react';
 class Info extends Component {
 
     render(){   
-        const list = this.props.resturants.map((obj, i) => {
+        const list = this.props.placeData.map((obj, i) => {
             return (
-                <div className="col-sm-6" key= {i}>
-                    <div className="card">
-                        <div className="card-body">
+                <div onClick={() => this.props.selectionAdded(obj)} className="card border-info mb-3" key= {i}>
+                    <div className="row no-gutters">
+                            <div className="col-md-4">
                             <img 
-                            className="card-img-top" 
+                            className="w-100"
                             style={{width: `100%`, height: `100%` }} 
-                            src="http://i32.photobucket.com/albums/d22/sachenae/reactLogo_zpsc27yfp4q.jpg" alt="image cap" 
-                            />
-                                <h4 className="card-title">{obj.name}</h4>
-                                    <h5 className="card-title">{obj.localized_city_name}</h5>
-                                <p className="card-text">{obj.description}</p>
+                            src={obj.image} alt="image cap" 
+                            >
+                            </img>
                         </div>
-                    </div>
+                        <div className="col-md-8 px-2">
+                        <div className="card-block px-2 text-left">
+                                <h6 className="card-title">{obj.name}</h6>
+                                <p className="card-text">{obj.description}</p>
+                            </div> 
+                        </div>
+                     </div>
+                        
                 </div>
             )
         })
 
         return(
             <div>
-                <h6>
+                <h5>
                     <em>
-                        <strong>list of resturants shown in map</strong>
+                        <strong>Choose your Destinations</strong>
                     </em>
-                </h6>
+                </h5>
                 <hr/>
-                <div className="row">
+                
                 <ul className="nav nav-pills nav-stacked anyClass">
-                <li class="nav-item">
+                <li className="nav-item">
       {list}
     </li>
                     
                     </ul>
                 </div>
-            </div>
+            
         );
     }
 }

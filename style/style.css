@@ -95,3 +95,8 @@
     height:800px;
     overflow-y: scroll;
   }
+
+  .w-100 {
+    max-height: 180px;
+    min-width: 180px;
+  }
