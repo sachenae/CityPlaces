@@ -92,11 +92,11 @@
   }
 
   .anyClass {
-    height:800px;
+    height:600px;
     overflow-y: scroll;
   }
 
   .w-100 {
-    max-height: 180px;
+    max-height: 280px;
     min-width: 180px;
   }

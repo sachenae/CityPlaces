@@ -10,11 +10,11 @@ class Selection extends Component {
                     <div className="row no-gutters">
                         <div className="col-md-12 px-2">
                             <div className="card-block px-2 text-left">
-                                <h6 >{obj.name}
+                                <h5 >{obj.name}
                                     <button onClick={() => this.props.selectionRemoved(obj)} type="button" className="close" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                </h6>
+                                </h5>
                             </div> 
                         </div>
                      </div>

@@ -11,14 +11,14 @@ class Info extends Component {
                             <div className="col-md-4">
                             <img 
                             className="w-100"
-                            style={{width: `100%`, height: `100%`, maxHeight: '180px', minWidth: '180px' }} 
+                            style={{width: `100%`, height: `100%` }} 
                             src={obj.image} alt=''
                             >
                             </img>
                         </div>
                         <div className="col-md-8 px-2">
                         <div className="card-block px-2 text-left">
-                                <h6 className="card-title">{obj.name}</h6>
+                                <h5 className="card-title"><strong>{obj.name}</strong></h5>
                                 <p className="card-text">{obj.description}</p>
                             </div> 
                         </div>
@@ -38,7 +38,7 @@ class Info extends Component {
                 </h5>
                 <hr/>
                 
-                <ul className="nav nav-pills nav-stacked" style={{height: '660px', overflowY: 'scroll' }}>
+                <ul className="nav nav-pills nav-stacked anyClass">
                 <li className="nav-item">
       {list}
     </li>

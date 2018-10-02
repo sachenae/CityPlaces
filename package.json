@@ -9,13 +9,12 @@
     "babel-polyfill": "^6.26.0",
     "materialize-css": "^0.100.2",
     "react": "^16.2.0",
-    "react-bootstrap": "^0.32.4",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
     "react-google-maps": "^9.4.5",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
-    "superagent": "^3.8.3"
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",

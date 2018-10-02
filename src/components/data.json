@@ -3,7 +3,7 @@
     "id": "123704012658",
     "name": "Sea Fortress Suomenlinna",
     "image": "https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/3485/SITours/private-half-day-tour-of-helsinki-and-the-suomenlinna-sea-fortress-in-helsinki-355226.jpg",
-    "description": "This fort which was biult in 18th Century was  designated as UNESCO World Heritage Site.Suomenlinna consists of several defensive and utilitarian buildings that blend the architecture and functionality of the fortress within the surrounding landscape.",
+    "description": "This fort which was built in 18th Century was designated as UNESCO World Heritage Site.Suomenlinna consists of several defensive and utilitarian buildings that blend the architecture and functionality of the fortress within the surrounding landscape.",
     "location": {
       "lat": "60.145587",
       "lng": "24.988548"
@@ -13,9 +13,9 @@
   },
   {
     "id": "123704012659",
-    "name": "kaisaniemi botanical garden",
+    "name": "Kaisaniemi Botanical Garden",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Helsingin_yliopiston_kasvitieteellinen_puutarha_%28University_of_Helsinki_Botanical_Garden%29_09.jpg",
-    "description": " It is the subordinate of Finnish Musume of Natural History of Helsinki University. This park is used for research and teaching.The visitor can see not only the world's biggest seed, but also an impressive collection of orchids ",
+    "description": " It is the subordinate of Finnish Museum of Natural History of Helsinki University. This park is used for research and teaching.The visitor can see not only the world's biggest seed, but also an impressive collection of orchids. ",
     "location": {
       "lat": "60.175491",
       "lng": "24.946335"
@@ -27,7 +27,7 @@
     "id": "123704012660",
     "name": "Helsinki Winter Garden",
     "image": "https://www.hel.fi/static/galleries/kanslia/Talvipuutarha%20-%20paasiainen/1.jpg",
-    "description": " This garden is famous for the collection of winter plant. There is over 200 different planet inside the winter house. There are three rooms in house i.e. palm room, wastern wing and cactus room",
+    "description": " This garden is famous for the collection of winter plant. There is over 200 different planet inside the winter house. There are three rooms in house i.e. palm room, western wing and cactus room.",
     "location": {
       "lat": "60.186226",
       "lng": "24.931647"
@@ -54,7 +54,7 @@
     "description": " This is one of the best architecture with bedrock found in Helsinki. This was designed by Timo  and tuomo Suomalainen.The lightning system used in this church and copper dome is its major attraction",
     "location": {
       "lat": "60.173203",
-      "lng": "24925577"
+      "lng": "24.925577"
     },
     "timeSpend": "40",
     "wikipedia": "https://en.wikipedia.org/wiki/Rock_Church"
@@ -63,7 +63,7 @@
     "id": "123704012664",
     "name": "Johannes Church",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Iglesia_de_San_Juan%2C_Helsinki%2C_Finlandia%2C_2012-08-14%2C_DD_11.JPG",
-    "description": "T. john's Church is designed by swedish architecture Adolf Melander in the Gothic Revival Style. It is one of the large church of Helsinki with the capicity if 2600 seats. The twin tower of the building is 74 m in hight",
+    "description": "T. John's Church is designed by swedish architecture Adolf Melander in the Gothic Revival Style. It is one of the large church of Helsinki with the capicity if 2600 seats. The twin tower of the building is 74 m in height.",
     "location": {
       "lat": "60.161977",
       "lng": "24.945576"
@@ -87,7 +87,7 @@
     "id": "123704012657",
     "name": "Seurasaari Island and Open-Air Museum",
     "image": "http://www.euro-t-guide.com/See_Photo/Finland/Helsinki/Seurasaari_Open-Air_Museum_2009_13.jpg",
-    "description": "To get a unique hands-on experience of rural life in the Finnish countryside, the Suerasaari Open-Air museum is the place to go. Its highlights are Traditional rural Finland,Open-air museum, Cottages, Farmsteads and manors",
+    "description": "To get a unique hands-on experience of rural life in the Finnish countryside, the Seurasaari Open-Air musuem is the place to go. Its highlights are Traditional rural Finland,Open-air museum, Cottages, Farmsteads and manors.",
     "location": {
       "lat": "60.182835",
       "lng": "24.887251"
