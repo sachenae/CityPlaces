@@ -33,6 +33,7 @@ class Info extends Component {
                 <h5>
                     <em>
                         <strong>Choose your Destinations</strong>
+                        <p>Click to select</p>
                     </em>
                 </h5>
                 <hr/>
