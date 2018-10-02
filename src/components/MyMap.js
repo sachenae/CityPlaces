@@ -1,11 +1,9 @@
 /*global google*/
-import React, { Component } from 'react'
-const { compose, withHandlers, withProps, lifecycle} = require("recompose")
-import { withGoogleMap, withScriptjs, GoogleMap, DirectionsRenderer } from 'react-google-maps'
-
-import { VenueMarker } from './VenueMarker'
+import React from 'react'
+import { withGoogleMap, withScriptjs, GoogleMap, DirectionsRenderer } from 'react-google-maps';
+import { VenueMarker } from './VenueMarker';
 const { MarkerClusterer } = require("react-google-maps/lib/components/addons/MarkerClusterer")
-
+const { compose, withHandlers, withProps, lifecycle} = require("recompose")
 
 
 

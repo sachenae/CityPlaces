@@ -3,15 +3,16 @@ import React, { Component } from 'react';
 class Info extends Component {
 
     render(){   
-        const list = this.props.placeData.map((obj, i) => {
+        const {places } = this.props
+        const list = places.map((obj, i) => {
             return (
                 <div onClick={() => this.props.selectionAdded(obj)} className="card border-info mb-3" key= {i}>
                     <div className="row no-gutters">
                             <div className="col-md-4">
                             <img 
                             className="w-100"
-                            style={{width: `100%`, height: `100%` }} 
-                            src={obj.image} alt="image cap" 
+                            style={{width: `100%`, height: `100%`, maxHeight: '180px', minWidth: '180px' }} 
+                            src={obj.image} alt=''
                             >
                             </img>
                         </div>
@@ -36,7 +37,7 @@ class Info extends Component {
                 </h5>
                 <hr/>
                 
-                <ul className="nav nav-pills nav-stacked anyClass">
+                <ul className="nav nav-pills nav-stacked" style={{height: '660px', overflowY: 'scroll' }}>
                 <li className="nav-item">
       {list}
     </li>

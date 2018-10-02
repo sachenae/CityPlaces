@@ -1,15 +1,16 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 // import axios from "axios"; 
-import superagent from 'superagent'
+// import superagent from 'superagent'
 import MyMap from './MyMap';
 import Info from './Info';
 import Selection from './Selection';
+import jsonData from './data.json';
 
  
 class Main extends Component {
 
-  constructor(props) {
-    super(props)
+  constructor() {
+    super();
 
     this.state = {
       currentLatLng: {
@@ -23,7 +24,9 @@ class Main extends Component {
       placeData: [],
       selectedPlaces:[]
     };
+    
   }
+  
 
   showCurrentLocation = () => {
     if (navigator.geolocation) {
@@ -72,21 +75,17 @@ class Main extends Component {
 //       // console.log(JSON.stringify(res));  
 //     });
 //    }
-  
+componentWillMount() {
+        this.setState({ placeData: jsonData });
+      
+    }
+
 componentDidMount(){
   this.showCurrentLocation()
-    console.log('componentDidMount')
-  superagent
-  .get(`../src/data.json`)
-  .query(null)
-  .set('Accept', 'text/json')
-  .end((error, response) => {
-      const placeData = response.body
-      this.setState({
-          placeData: placeData
-      })
-  })
-}
+}   
+
+
+
   
 selectionAddedHandler = (obj) => {
   const selectedPlaces = [...this.state.selectedPlaces]
@@ -117,7 +116,7 @@ selectionRemovedHandler = (obj) => {
 
  
   render() {
-   const {lat, lng} = this.state.currentLatLng;
+  //  const {lat, lng, placeData} = this.state;
    
 
  
@@ -141,7 +140,7 @@ selectionRemovedHandler = (obj) => {
           </div>
           <div className="col-md-6"> 
             <Selection selected={this.state.selectedPlaces} selectionRemoved={this.selectionRemovedHandler} />
-            <Info placeData={this.state.placeData} selectionAdded={this.selectionAddedHandler} /> 
+            <Info places={this.state.placeData} selectionAdded={this.selectionAddedHandler} /> 
           </div>
         </div> 
     );
